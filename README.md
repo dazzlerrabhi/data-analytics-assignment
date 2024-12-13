@@ -7,19 +7,28 @@ The objective of this project is to analyze datasets related to user behavior, c
 
 ## 📁 **Project Structure**
 ```
+
 📁 data-analytics-assignment
 ├── 📁 data
-│   ├── UserDetails.csv       # User demographic and preference data
-│   ├── CookingSessions.csv   # Cooking session activity data
-│   └── OrderDetails.csv      # Order transaction details
+│   |                      # UserDetails(Sheet-1)      -> User demographic and preference data
+│   ├── excel_data.xlsx    # CookingSessions(Sheet-2)  -> Cooking session activity data
+│   │                      # OrderDetails(Sheet-3)     -> Order transaction details
+│   │                      
+│   └── cleaned_data.csv   # cleaned data csv file
+│
 ├── 📁 notebooks
-│   └── analysis_and_visualization.ipynb # Jupyter Notebook for analysis and visualization
-├── 📁 scripts
-│   └── data_cleaning.py      # Script to clean and merge datasets
+│   ├── Data Cleaning.ipynb                # Jupyter Notebook to clean and merge datasets
+│   └── Analysis And Visualization.ipynb   # Jupyter Notebook for analysis and visualization
+│
 ├── 📁 visualizations
-│   └── charts_and_graphs.png # Visual outputs from the analysis
-├── 📜 README.md               # Overview of the project (this file)
-└── 📜 requirements.txt        # Python dependencies
+│   ├── popular_dishes.png
+│   ├── revenue_by_meal.png
+│   ├── sessions_vs_orders.png            # Visual outputs from the analysis
+│   ├── user_engagement_by_age.png
+│   └── charts_and_graphs.png 
+│
+└── 📜 README.md               # Overview of the project (this file)
+
 ```
 
 ---
